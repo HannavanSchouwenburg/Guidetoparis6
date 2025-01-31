@@ -1,0 +1,86 @@
+/**************/
+/* CSS REMEDY */
+/**************/
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+}
+
+
+
+
+
+
+/*********************/
+/* CUSTOM PROPERTIES */
+/*********************/
+/**:root {
+	/* startje */
+/*--color-text:#111;
+	--color-background:blue;
+}*/
+
+
+
+title {
+	color: red
+}
+
+/****************/
+/* JOUW STYLING */
+/****************/
+body {
+	background-image: linear-gradient(90deg, blue 33.33%, white 33.33%, white 66.66%, red 66.66%);
+	font-family: "Gill Sans", sans-serif;
+	font-size: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	color: navy;
+}
+
+h1 {
+	color: white;
+	text-shadow: 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black;
+}
+
+img {
+	margin: 20px;
+}
+
+p {
+	border-style: solid;
+	border-left-width: 0px;
+	border-right-width: 0px;
+	background-color: white;
+	border-color: white;
+	padding: 10px;
+
+
+}
+
+
+nav {
+	display: flex;
+	justify-content: center;
+
+}
+
+a {
+	border-style: solid;
+	padding: 0.5em;
+	margin: 1em;
+	background-color: #4A4A99;
+	color: white;
+	border-radius: 0.2em;
+}
+
+a:hover {
+	background: blue; 
+	padding: 0.8em;
+}
+
+/* jouw code */
